@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alemanha_bandeira" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo"
+                style="@style/TituloA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="Alemanha" />
+
+            <TextView
+                style="@style/TopicosA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Ficha técnica:" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Área: 356.733 km²" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Capital: Berlim" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Moeda: Euro" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Língua Oficial: Alemão" />
+
+            <TextView
+                style="@style/TopicosA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Pontos Turísticos:" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/alemanha_castelo" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="A alemanha é mundialmente famosa e conhecida pelos seus castelos da Idade Medieval. Em sua maioria, datam dos séculos XVIII e XIX. O mais famoso é o Castelo de Neuschwastein (da foto acima)" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/muro_berlin" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="O muro de Berlim é uma construção datada de 1960, que dividia a cidade de Berlin entre a sociedade capitalista e a sociedade socialista. O que antigamente era um muro que dividia famílias, hoje se tornou um monumento histórico e um ponto turísticos, atraindo milhões de turistas todo ano." />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/alemanha_portao" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="O Portão de Brandemburgo é um monumento construído no final do século XVIII. Este portão é atualmente considerado um ponto turístico, localizado no centro de Berlim. " />
+
+
+            <TextView
+                style="@style/TopicosA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Qual nota você atribui a esse país?" />
+
+            <RatingBar
+                android:id="@+id/ratingBarAlemanha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="0.0"
+                android:stepSize="1.0" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado: "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/avaliacaoAlemanha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / 5.0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TopicosA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Referências bibliográficas" />
+
+            <TextView
+                android:id="@+id/referencia1"
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.suapesquisa.com/paises/alemanha/" />
+
+            <TextView
+                style="@style/ConteudoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.porquenaotravels.com/2011/06/os-castelos-da-alemanha.html" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
