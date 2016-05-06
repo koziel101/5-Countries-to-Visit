@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Canadá"));
         tabLayout.addTab(tabLayout.newTab().setText("Egito"));
         tabLayout.addTab(tabLayout.newTab().setText("França"));
-        tabLayout.addTab(tabLayout.newTab().setText("Noruega"));
+        tabLayout.addTab(tabLayout.newTab().setText("Nova Zelândia"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);

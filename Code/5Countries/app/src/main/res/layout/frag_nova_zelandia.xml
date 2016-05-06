@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/franca_bandeira" />
+        android:src="@drawable/nova_zelandia_bandeira" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="20dp"
-                android:text="França" />
+                android:text="Nova Zelândia" />
 
             <TextView
                 style="@style/TopicosP"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Área: 543.965 km²" />
+                android:text="Área: 268.680 km²" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Capital: Paris" />
+                android:text="Capital: Wellington" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Moeda: Euro" />
+                android:text="Moeda: Dólar da Nova Zelândia" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Língua Oficial: Francês" />
+                android:text="Língua Oficial: Inglês" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Governo: República Constitucional Unitária Semipresidencialista " />
+                android:text="Governo: Monarquia constitucional parlamentarista" />
 
             <TextView
                 style="@style/TopicosP"
@@ -89,8 +89,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:src="@drawable/franca_torre_eiffel" />
+                android:scaleType="fitXY"
+                android:src="@drawable/nova_zelandia_paisagem" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -99,34 +99,8 @@
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="Este monumento do século XIX localizado em Paris, se tornou o símbolo da França, sendo mundialmente conhecida. Sendo o monumento pago mais visitado do mundo, a torre é a segunda estrutura mais alta da França." />
+                android:text="O primeiro ponto turístico é o próprio país. Nova Zelândia é repleta de belezas naturais, com paisagens " />
 
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:src="@drawable/franca_museu" />
-
-            <TextView
-                style="@style/ConteudoP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:paddingTop="15dp"
-                android:text="O Museu do Louvre, localizado no centro de Paris, é hoje um dos maiores e mais famosos museus do mundo. Dentro suas principais atrações podemos citar a Mona Lisa, a Vitória de Samotrácia, a Vênus de Milo, enormes coleções de artefatos do Egito antigo e da civilização greco-romana. Este museu abrange 8 mil anos de história das culturas e das civilizações Oriente e Ocidente." />
-
-
-            <TextView
-                style="@style/ConteudoP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="O prédio em si nem sempre foi um museu. Inicialmente este foi construído com o intuito de ser uma fortaleza, em meados de 1990. No séculos subsequentes este passou a ser um palácio, e apenas em 1793 que este foi inaugurado como, de fato, um museu."/>
 
             <TextView
                 style="@style/TopicosP"
@@ -137,7 +111,7 @@
                 android:text="Qual nota você atribui a esse país?" />
 
             <RatingBar
-                android:id="@+id/ratingBarFranca"
+                android:id="@+id/ratingBarNovaZelandia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:numStars="5"
@@ -156,7 +130,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <TextView
-                    android:id="@+id/avaliacaoFranca"
+                    android:id="@+id/avaliacaoNovaZelandia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0.0"
@@ -185,7 +159,7 @@
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.suapesquisa.com/paises/franca/"/>
+                android:text="http://www.suapesquisa.com/paises/alemanha/" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -194,17 +168,7 @@
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="www.toureiffel.paris/pt"/>
-
-            <TextView
-                style="@style/ConteudoP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:autoLink=""
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="http://www.infoescola.com/historia/museu-do-louvre/"/>
-
+                android:text="http://www.porquenaotravels.com/2011/06/os-castelos-da-alemanha.html" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

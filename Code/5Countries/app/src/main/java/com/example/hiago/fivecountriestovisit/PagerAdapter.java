@@ -29,7 +29,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 TabFranca tab4 = new TabFranca();
                 return tab4;
             case 4:
-                TabNoruega tab5 = new TabNoruega();
+                TabNovaZelandia tab5 = new TabNovaZelandia();
                 return tab5;
             default:
                 return null;

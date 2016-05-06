@@ -101,7 +101,7 @@
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="Impossível falar sobre o Egito sem mencionar as pirâmides e as Esfinges." />
+                android:text="Impossível falar sobre o Egito sem mencionar as pirâmides e a Esfinge. A pirâmide de Quéops, em Gizé, é a maior pirâmide egípcia e a única das Sete Maravilhas do mundo antigo que ainda existe. A Grande Esfinge de Gizé representa uma criatura mítica, com corpo de leão e cabeça humana." />
 
 
             <ImageView
@@ -110,7 +110,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:src="@drawable/alemanha_portao" />
+                android:src="@drawable/egito_museu" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -119,8 +119,7 @@
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="O Portão de Brandemburgo é um monumento construído no final do século XVIII. Este portão é atualmente considerado um ponto turístico, localizado no centro de Berlim. " />
-
+                android:text="O Museu Copta, localizado em Cairo, é o museu que aloja a maior quantidade de artefatos cristãos egípcios do mundo. Fundada em 1910, este museu possui 15 mil objetos, e uma biblioteca com 1200 manuscritos aberta a investigadores especializados apenas." />
 
             <TextView
                 style="@style/TopicosP"
@@ -189,6 +188,15 @@
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:text="http://www.infoescola.com/civilizacao-egipcia/esfinge-de-gize/" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.touristlink.com.br/Egito/museu-copta/overview.html" />
 
         </LinearLayout>
     </ScrollView>
