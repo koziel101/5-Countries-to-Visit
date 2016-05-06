@@ -21,7 +21,7 @@
 
             <TextView
                 android:id="@+id/titulo"
-                style="@style/TituloC"
+                style="@style/TituloP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -29,7 +29,7 @@
                 android:text="Canadá" />
 
             <TextView
-                style="@style/TopicosC"
+                style="@style/TopicosP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
@@ -38,7 +38,7 @@
                 android:text="Ficha técnica:" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -46,7 +46,7 @@
                 android:text="Área: 9.970.610 km²" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -54,7 +54,7 @@
                 android:text="Capital: Ottawa" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -62,7 +62,7 @@
                 android:text="Moeda: Dólar canadense" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -70,15 +70,15 @@
                 android:text="Governo: Monarquia Parlamentarista" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="Línguas Oficiaia: Inglês e Francês" />
+                android:text="Línguas Oficiais: Inglês e Francês" />
 
             <TextView
-                style="@style/TopicosC"
+                style="@style/TopicosP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -94,13 +94,13 @@
                 android:src="@drawable/canada_catarata" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="As Cataratas do Niagara" />
+                android:text="As Cataratas do Niagara são um agrupamento de cataratas localizadas Nova Iorque e Ontário. As Cataratas do Niagara possuem uma altura de 51 metros, sendo a 25ª catarata mais alta do mundo. Sua beleza natural atrai turistas durante todas as épocas do ano." />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -108,16 +108,16 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:src="@drawable/muro_berlin" />
+                android:src="@drawable/canada_basilica" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="O muro de Berlim é uma construção datada de 1960, que dividia a cidade de Berlin entre a sociedade capitalista e a sociedade socialista. O que antigamente era um muro que dividia famílias, hoje se tornou um monumento histórico e um ponto turísticos, atraindo milhões de turistas todo ano." />
+                android:text="A Basílica de Notre-Dame é uma edificação cristã situada em Montreal. Ela foi construída em 1820-1830 pelo arquiteto James O'Donnell. Esta edificação histórica tem a altura equivalente à um prédio de 20 andares, e capacidade para 3 mil pessoas." />
 
 
             <ImageView
@@ -126,20 +126,20 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:src="@drawable/alemanha_portao" />
+                android:src="@drawable/canada_science_world" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="O Portão de Brandemburgo é um monumento construído no final do século XVIII. Este portão é atualmente considerado um ponto turístico, localizado no centro de Berlim. " />
+                android:text="Science World é um centro de ciências localizado em Vancouver. Este centro possui exibições de diferentes áreas como física, química e biologia, mostrando inclusive suas evoluções no decorrer dos anos. O centro começou a receber visitantes em 1977, e atualmente recebe 650 mil pessoas anualmente" />
 
 
             <TextView
-                style="@style/TopicosC"
+                style="@style/TopicosP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -180,7 +180,7 @@
             </LinearLayout>
 
             <TextView
-                style="@style/TopicosC"
+                style="@style/TopicosP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
@@ -190,7 +190,7 @@
 
             <TextView
                 android:id="@+id/referencia1"
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink=""
@@ -199,13 +199,22 @@
                 android:text="http://www.suapesquisa.com/paises/canada/" />
 
             <TextView
-                style="@style/ConteudoC"
+                style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.porquenaotravels.com/2011/06/os-castelos-da-alemanha.html" />
+                android:text="Parcs Canada, Montréal, une ville d'histoire, 2004" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.canadaparabrasileiros.com/montreal/principais-atracoes-montreal/basilica-de-notre-dame/" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

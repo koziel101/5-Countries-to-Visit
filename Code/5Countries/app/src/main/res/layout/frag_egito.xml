@@ -4,12 +4,192 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Tab 3"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/egito_bandeira" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo"
+                style="@style/TituloP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="Egito" />
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Ficha técnica:" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Área: 1.001.449 km²" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Capital: Cairo" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Moeda: Libra Egípcia" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Língua Oficial: Árabe" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Governo: República Semipresidencialista" />
+
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Pontos Turísticos:" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/egito_esfinge" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Impossível falar sobre o Egito sem mencionar as pirâmides e as Esfinges." />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/alemanha_portao" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="O Portão de Brandemburgo é um monumento construído no final do século XVIII. Este portão é atualmente considerado um ponto turístico, localizado no centro de Berlim. " />
+
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Qual nota você atribui a esse país?" />
+
+            <RatingBar
+                android:id="@+id/ratingBarEgito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="0.0"
+                android:stepSize="1.0" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado: "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/avaliacaoEgito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / 5.0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Referências bibliográficas" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.suapesquisa.com/paises/egito/" />
+
+            <TextView
+                style="@style/ConteudoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink=""
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="http://www.infoescola.com/civilizacao-egipcia/esfinge-de-gize/" />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -1,8 +1,5 @@
-package com.example.hiago.relatoriodeestudos;
+package com.example.hiago.fivecountriestovisit;
 
-/**
- * Created by Hiago on 17/04/2016.
- */
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,8 +8,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import com.example.hiago.relatoriodeestudos.R;
 
-public class TabCanada extends Fragment {
+public class TabEgito extends Fragment {
 
     private static Button button;
     private static TextView textView;
@@ -20,7 +18,7 @@ public class TabCanada extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.frag_canada, container, false);
+        View view = inflater.inflate(R.layout.frag_egito, container, false);
         return view;
     }
 
@@ -31,8 +29,8 @@ public class TabCanada extends Fragment {
     }
 
     public void ListenerRating() {
-        ratingBar = (RatingBar) getActivity().findViewById(R.id.ratingBarCanada);
-        textView = (TextView) getActivity().findViewById(R.id.avaliacaoCanada);
+        ratingBar = (RatingBar) getActivity().findViewById(R.id.ratingBarEgito);
+        textView = (TextView) getActivity().findViewById(R.id.avaliacaoEgito);
 
         ratingBar.setOnRatingBarChangeListener(
                 new RatingBar.OnRatingBarChangeListener() {

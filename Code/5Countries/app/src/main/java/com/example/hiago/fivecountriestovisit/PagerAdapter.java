@@ -1,8 +1,5 @@
-package com.example.hiago.relatoriodeestudos;
+package com.example.hiago.fivecountriestovisit;
 
-/**
- * Created by Hiago on 17/04/2016.
- */
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;

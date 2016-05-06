@@ -1,4 +1,4 @@
-package com.example.hiago.relatoriodeestudos;
+package com.example.hiago.fivecountriestovisit;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

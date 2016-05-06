@@ -10,38 +10,38 @@
         <item name="colorAccent">#FF4081</item>
     </style>
 
-    <style name="TituloA">
+    <style name="TituloB">
         <item name="android:textSize">40sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="TopicosA">
+    <style name="TopicosB">
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">#d3d7e9</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="ConteudoA">
+    <style name="ConteudoB">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textStyle">italic</item>
     </style>
 
 
-    <style name="TituloC">
+    <style name="TituloP">
         <item name="android:textSize">40sp</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="TopicosC">
+    <style name="TopicosP">
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#b5bfed</item>
+        <item name="android:textColor">#0a34f5</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="ConteudoC">
+    <style name="ConteudoP">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textStyle">italic</item>
