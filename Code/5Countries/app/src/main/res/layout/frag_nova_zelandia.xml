@@ -28,7 +28,7 @@
                 android:text="Nova Zelândia" />
 
             <TextView
-                style="@style/TopicosP"
+                style="@style/TopicosNovaZ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
@@ -37,7 +37,7 @@
                 android:text="Ficha técnica:" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -45,7 +45,7 @@
                 android:text="Área: 268.680 km²" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -53,7 +53,7 @@
                 android:text="Capital: Wellington" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -61,7 +61,7 @@
                 android:text="Moeda: Dólar da Nova Zelândia" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -69,7 +69,7 @@
                 android:text="Língua Oficial: Inglês" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -77,7 +77,7 @@
                 android:text="Governo: Monarquia constitucional parlamentarista" />
 
             <TextView
-                style="@style/TopicosP"
+                style="@style/TopicosNovaZ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -93,17 +93,33 @@
                 android:src="@drawable/nova_zelandia_paisagem" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
-                android:text="O primeiro ponto turístico é o próprio país. Nova Zelândia é repleta de belezas naturais, com paisagens " />
+                android:text="O primeiro ponto turístico é o próprio país. Nova Zelândia é repleta de belezas naturais, com paisagens belas e diversificadas. Montanhas, lagos, aurora boreal e florestas são alguns exemplos das belezas deste país. A natureza presente é tão atrativa que inspirou franquias de filmes como 'O senhor do anéis' e 'Hobbit' a serem gravados na Nova Zelândia." />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/nova_zelandia_milford" />
 
             <TextView
-                style="@style/TopicosP"
+                style="@style/ConteudoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Milford Sound é um fiord (uma grande entrada de mar entre altas montanhas rochosas) ao sul da Nova Zelândia. Este é o principal ponto turístico natural do país, se localizando a 2 horas da cidade de Te Narau. É possível fazer passeios de barcos, canoagem, mergulho, vôo panorâmico, trilha e caminhada." />
+
+            <TextView
+                style="@style/TopicosNovaZ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -116,8 +132,7 @@
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 android:rating="0.0"
-                android:stepSize="1.0" />
-
+                android:stepSize="0.5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -144,7 +159,30 @@
             </LinearLayout>
 
             <TextView
-                style="@style/TopicosP"
+                style="@style/TopicosNovaZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Envie sua avaliação e algum comentário sobre este país para algum amigo!" />
+
+            <EditText
+                android:id="@+id/comentario_nova_zelandia"
+                style="@style/ConteudoB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Comentários"
+                android:inputType="textCapSentences" />
+
+            <Button
+                android:id="@+id/bttnnova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
+
+            <TextView
+                style="@style/TopicosNovaZ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
@@ -153,22 +191,22 @@
                 android:text="Referências bibliográficas" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.suapesquisa.com/paises/alemanha/" />
+                android:text="http://www.milford-sound.co.nz/thingstodo/" />
 
             <TextView
-                style="@style/ConteudoP"
+                style="@style/ConteudoB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.porquenaotravels.com/2011/06/os-castelos-da-alemanha.html" />
+                android:text="http://www.newzealand.com/br/milford-sound/" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

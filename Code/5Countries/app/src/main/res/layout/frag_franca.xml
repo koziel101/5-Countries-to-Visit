@@ -101,7 +101,6 @@
                 android:paddingTop="15dp"
                 android:text="Este monumento do século XIX localizado em Paris, se tornou o símbolo da França, sendo mundialmente conhecida. Sendo o monumento pago mais visitado do mundo, a torre é a segunda estrutura mais alta da França." />
 
-
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -119,14 +118,13 @@
                 android:paddingTop="15dp"
                 android:text="O Museu do Louvre, localizado no centro de Paris, é hoje um dos maiores e mais famosos museus do mundo. Dentro suas principais atrações podemos citar a Mona Lisa, a Vitória de Samotrácia, a Vênus de Milo, enormes coleções de artefatos do Egito antigo e da civilização greco-romana. Este museu abrange 8 mil anos de história das culturas e das civilizações Oriente e Ocidente." />
 
-
             <TextView
                 style="@style/ConteudoP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="O prédio em si nem sempre foi um museu. Inicialmente este foi construído com o intuito de ser uma fortaleza, em meados de 1990. No séculos subsequentes este passou a ser um palácio, e apenas em 1793 que este foi inaugurado como, de fato, um museu."/>
+                android:text="O prédio em si nem sempre foi um museu. Inicialmente este foi construído com o intuito de ser uma fortaleza, em meados de 1990. No séculos subsequentes este passou a ser um palácio, e apenas em 1793 que este foi inaugurado como, de fato, um museu." />
 
             <TextView
                 style="@style/TopicosP"
@@ -142,8 +140,7 @@
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 android:rating="0.0"
-                android:stepSize="1.0" />
-
+                android:stepSize="0.5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -167,7 +164,31 @@
                     android:layout_height="wrap_content"
                     android:text=" / 5.0"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
             </LinearLayout>
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Envie sua avaliação e algum comentário sobre este país para algum amigo!" />
+
+            <EditText
+                android:id="@+id/comentario_franca"
+                style="@style/ConteudoP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Comentários"
+                android:inputType="textCapSentences" />
+
+            <Button
+                android:id="@+id/bttnfranca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
 
             <TextView
                 style="@style/TopicosP"
@@ -185,7 +206,7 @@
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.suapesquisa.com/paises/franca/"/>
+                android:text="http://www.suapesquisa.com/paises/franca/" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -194,7 +215,7 @@
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="www.toureiffel.paris/pt"/>
+                android:text="www.toureiffel.paris/pt" />
 
             <TextView
                 style="@style/ConteudoP"
@@ -203,8 +224,7 @@
                 android:autoLink=""
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="http://www.infoescola.com/historia/museu-do-louvre/"/>
-
+                android:text="http://www.infoescola.com/historia/museu-do-louvre/" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

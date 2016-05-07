@@ -77,7 +77,6 @@
                 android:paddingRight="15dp"
                 android:text="Governo: República Semipresidencialista" />
 
-
             <TextView
                 style="@style/TopicosP"
                 android:layout_width="wrap_content"
@@ -102,7 +101,6 @@
                 android:paddingRight="15dp"
                 android:paddingTop="15dp"
                 android:text="Impossível falar sobre o Egito sem mencionar as pirâmides e a Esfinge. A pirâmide de Quéops, em Gizé, é a maior pirâmide egípcia e a única das Sete Maravilhas do mundo antigo que ainda existe. A Grande Esfinge de Gizé representa uma criatura mítica, com corpo de leão e cabeça humana." />
-
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -135,8 +133,7 @@
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 android:rating="0.0"
-                android:stepSize="1.0" />
-
+                android:stepSize="0.5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -161,6 +158,29 @@
                     android:text=" / 5.0"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
             </LinearLayout>
+
+            <TextView
+                style="@style/TopicosP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Envie sua avaliação e algum comentário sobre este país para algum amigo!" />
+
+            <EditText
+                android:id="@+id/comentario_egito"
+                style="@style/ConteudoP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Comentários"
+                android:inputType="textCapSentences" />
+
+            <Button
+                android:id="@+id/bttnegito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
 
             <TextView
                 style="@style/TopicosP"
