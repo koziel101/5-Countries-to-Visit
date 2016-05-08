@@ -54,13 +54,13 @@ public class TabEgito extends Fragment {
 
         //Chamando os métodos do aplicativo
         ListenerRating();
-        botEgito();
+        enviarEmailEgito();
     }
 
     /**
      * Metodo responsavel por enviar o Intent de email
      */
-    public void botEgito() {
+    public void enviarEmailEgito() {
         buttonEgito = (Button) getActivity().findViewById(R.id.bttnegito);
 
         //Cria um listener para um botao que vai diretamente na SettingsActivity

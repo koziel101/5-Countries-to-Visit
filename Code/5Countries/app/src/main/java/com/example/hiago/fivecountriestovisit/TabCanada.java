@@ -54,13 +54,13 @@ public class TabCanada extends Fragment {
 
         //Chamando os métodos do aplicativo
         ListenerRating();
-        botCanada();
+        enviarEmailCanada();
     }
 
     /**
      * Metodo responsavel por enviar o Intent de email
      */
-    public void botCanada() {
+    public void enviarEmailCanada() {
         buttonCanada = (Button) getActivity().findViewById(R.id.bttnCanada);
 
         //Cria um listener para um botao que vai diretamente na SettingsActivity

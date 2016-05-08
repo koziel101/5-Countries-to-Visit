@@ -55,14 +55,14 @@ public class TabAlemanha extends Fragment {
 
         //Chamando os métodos do aplicativo
         ListenerRating();
-        botAlemanha();
+        enviarEmailAlemanha();
 
     }
 
     /**
      * Metodo responsavel por enviar o Intent de email
      */
-    public void botAlemanha() {
+    public void enviarEmailAlemanha() {
         buttonAlemanha = (Button) getActivity().findViewById(R.id.bttnAlemanha);
 
         //Cria um listener para um botao que vai diretamente na SettingsActivity

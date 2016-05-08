@@ -54,13 +54,13 @@ public class TabNovaZelandia extends Fragment {
 
         //Chamando os métodos do aplicativo
         ListenerRating();
-        botNovaZ();
+        enviarEmailNovaZelandia();
     }
 
     /**
      * Metodo responsavel por enviar o Intent de email
      */
-    public void botNovaZ() {
+    public void enviarEmailNovaZelandia() {
         buttonNovaZ = (Button) getActivity().findViewById(R.id.bttnnova);
 
         //Cria um listener para um botao que vai diretamente na SettingsActivity

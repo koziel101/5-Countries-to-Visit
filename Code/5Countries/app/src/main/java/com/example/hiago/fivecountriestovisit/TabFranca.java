@@ -54,13 +54,13 @@ public class TabFranca extends Fragment {
 
         //Chamando os métodos do aplicativo
         ListenerRating();
-        botFranca();
+        enviarEmailFranca();
     }
 
     /**
      * Metodo responsavel por enviar o Intent de email
      */
-    public void botFranca() {
+    public void enviarEmailFranca() {
         buttonFranca = (Button) getActivity().findViewById(R.id.bttnfranca);
 
         //Cria um listener para um botao que vai diretamente na SettingsActivity
